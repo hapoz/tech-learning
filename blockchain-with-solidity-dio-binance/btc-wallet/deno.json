@@ -1,0 +1,16 @@
+{
+  "name": "btc-wallet",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "run": "deno run --allow-env --allow-read --allow-sys mod.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/node": "npm:@types/node@^24.0.10",
+    "bip32": "npm:bip32@2.0.6",
+    "bip39": "npm:bip39@^3.1.0",
+    "bitcoinjs-lib": "npm:bitcoinjs-lib@^6.1.7"
+  }
+}
